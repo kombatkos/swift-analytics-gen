@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "AnalyticsGen",
     platforms: [
-        .macOS(.v10_12)
+        .macOS(.v10_12),
+        .iOS(.v13)
     ],
     products: [
         .executable(name: "AnalyticsGen", targets: ["AnalyticsGen"]),
